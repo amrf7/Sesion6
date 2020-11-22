@@ -1,0 +1,73 @@
+// Custom.scss
+$theme-colors: ("primary": #025157,"success": #6abf4b, "light": #ffffff);
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -2px;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #025157 !important;
+    position: relative;
+}
+
+nav .navbar-nav li a {
+    color: #025157 !important;
+}
+
+nav .navbar-nav li::after {
+    content: '';
+    width: 0;
+    display: block;
+    height: 2px;
+    background-color: #025157;
+}
+
+nav .navbar-nav li:hover {
+    text-decoration: none;
+    color: #025157;
+}
+
+nav .navbar-nav li:hover::after {
+    width: 100%;
+}
+
+.links a {
+    padding: 0.5rem 1rem;
+}
+
+.links::after {
+    content: '';
+    width: 0;
+    display: block;
+    height: 2px;
+    margin-top: .5em;
+    background-color: #025157;
+}
+
+.links:hover::after {
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #6abf4b !important;
+    border-color: #6abf4b !important;
+}
+
+.btn-success {
+    color: #ffffff !important;
+}
+
+.btn-success:hover {
+    color: #ffffff !important;
+    background-color: #6abf4b !important;
+    border-color: #6abf4b !important;
+}
+
+.btn:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
