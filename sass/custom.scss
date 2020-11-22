@@ -86,4 +86,21 @@ nav .navbar-nav li:hover::after {
     transition: all .5s ease;
 }
 
+.display-5 {
+    font-size: 2.3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.tools img {
+    width: 40px;
+}
+
+.tools h5 {
+    font-size: 1.2rem;
+}
+.tools p {
+    font-size: .9rem;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";

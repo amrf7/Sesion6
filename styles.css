@@ -85,6 +85,24 @@ nav .navbar-nav li:hover::after {
   transition: all 0.5s ease;
 }
 
+.display-5 {
+  font-size: 2.3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.tools img {
+  width: 40px;
+}
+
+.tools h5 {
+  font-size: 1.2rem;
+}
+
+.tools p {
+  font-size: 0.9rem;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
