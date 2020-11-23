@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Sesion 6</title>
   </head>
-  <body class="px-5">
+  <body>
     <!-- Nuestra barra de navegación comentada va aquí -->
-    <nav class="navbar navbar-expand-lg mx-3 mt-5">
+    <nav class="navbar navbar-expand-lg mx-3 mt-5 navbar-light">
       <a class="navbar-brand" href="https://getmatcha.com/">
         <img
           class="w-100"
@@ -31,9 +31,13 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">
+          <div></div>
+          <div></div>
+          <div></div>
+        </span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse bg-success align-items-center" id="navbarSupportedContent">
         <ul class="navbar-nav w-50 mx-auto navbar-light justify-content-around">
           <li class="nav-item dropdown">
             <a
@@ -48,10 +52,8 @@
               Products
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Blog Creator</a>
+              <a class="dropdown-item" href="#">Content Library</a>
             </div>
           </li>
           <li class="nav-item">
@@ -76,13 +78,42 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Products
+              Resources
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-item" href="#">
+                <a>Morning Matcha</a>
+                <p class="text-secondary small">Weekly curated e-commerce news</p>
+              </div>
+              <div class="dropdown-item" href="#">
+                <a>Toolkit</a>
+                <p class="text-secondary small">Kick-start your content marketing strategy</p>
+              </div>
+              <div class="dropdown-item" href="#">
+                <a>Free COVID-19 Content</a>
+                <p class="text-secondary small">Build trust with customers</p>
+              </div>
+              <div class="dropdown-item" href="#">
+                <a>Content Marketing Course</a>
+                <p class="text-secondary small">6-part email series</p>
+              </div>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-item" href="#">
+                <a>Matcha Referral Program</a>
+                <p class="text-secondary small">Get paid to promote Matcha</p>
+              </div>
+              <div class="dropdown-item" href="#">
+                <a>2020 Benchmark Report</a>
+                <p class="text-secondary small">For Ecommerce Stores and DTC Brands</p>
+              </div>
+              <div class="dropdown-item" href="#">
+                <a>Email Marketing Course</a>
+                <p class="text-secondary small">Grow your list and increase sales</p>
+              </div>
+              <div class="dropdown-item" href="#">
+                <a>Help Center</a>
+                <p class="text-secondary small">Set up and use Matcha</p>
+              </div>
             </div>
           </li>
         </ul>
@@ -135,8 +166,8 @@
             </div>
           </div>
         </div>
-        <div class="col-5 my-0 mr-5 d-flex align-items-center">
-          <div class="embed-responsive embed-responsive-16by9 w-100">
+        <div class="col-lg-5 my-0 mr-5 d-flex align-items-center">
+          <div class="intro-video embed-responsive embed-responsive-16by9 w-100">
             <iframe
               class="embed-responsive-item"
               src="https://www.youtube.com/embed/l498-ryxzYY"
@@ -145,38 +176,38 @@
           </div>
         </div>
       </div>
-      <div class="row p-5 flex-column mx-auto align-items-center my-0 py-0">
+      <div class="row p-5 flex-column mx-5 align-items-center my-0 py-0">
         <h6 class="text-secondary text-uppercase">
           Trusted By Growing Ecommerce Brands
         </h6>
-        <div>
+        <div class="partners-logos container-fluid d-flex flex-wrap justify-content-around">
           <img
-            class="m-4"
+            class="h-100 m-3"
             src="https://getmatcha.com/wp-content/uploads/2020/08/superfeet.png"
             alt="superfeet"
           />
           <img
-            class="m-4"
+            class="h-100 m-3"
             src="https://getmatcha.com/wp-content/uploads/2020/08/spirithoods.png"
             alt="spirit hoods"
           />
           <img
-            class="m-4"
+            class="h-100 m-3"
             src="https://getmatcha.com/wp-content/uploads/2020/08/seatosummit.png"
             alt="sea to summit"
           />
           <img
-            class="m-4"
+            class="h-100 m-3"
             src="https://getmatcha.com/wp-content/uploads/2020/08/osprey.png"
             alt="osprey"
           />
           <img
-            class="m-4"
+            class="h-100 m-3"
             src="https://getmatcha.com/wp-content/uploads/2020/08/oars.png"
             alt="oars alps"
           />
           <img
-            class="m-4"
+            class="h-100 m-3"
             src="https://getmatcha.com/wp-content/uploads/2020/08/everly.png"
             alt="everly"
           />
@@ -247,8 +278,8 @@
     </section>
     <section id="tools" class="p-5 tools">
       <h2 class="display-5 text-primary font-weight-bold text-center">Tools to help you publish more and convert readers.</h2>
-      <article id="cards" class="d-flex justify-content-around my-5">
-      <div class="card mr-5 p-3 w-25 align-items-center shadow">
+      <article id="cards" class="tool-cards d-flex justify-content-around my-5">
+      <div class="card m-4 p-3 w-25 align-items-center shadow">
         <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png" class="card-img-top mt-3" alt="Email list">
         <div class="card-body text-center">
           <h5 class="">Grow your email list with locked content.</h5>
@@ -258,7 +289,7 @@
           </p>
         </div>
       </div>
-      <div class="card mr-5 w-25 p-3 align-items-center shadow">
+      <div class="card m-4 w-25 p-3 align-items-center shadow">
         <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png" class="card-img-top mt-3" alt="Segment subsribers">
         <div class="card-body text-center">
           <h5>Segment subscribers by their content interests.</h5>
@@ -268,7 +299,7 @@
           </p>
         </div>
       </div>
-      <div class="card mr-5 w-25 p-3 align-items-center shadow">
+      <div class="card m-4 w-25 p-3 align-items-center shadow">
         <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png" class="card-img-top mt-3" alt="Schedule content">
         <div class="card-body text-center">
           <h5>Schedule content to social and preview content in email.</h5>
@@ -278,7 +309,7 @@
           </p>
         </div>
       </div>
-      <div class="card w-25 p-3 align-items-center shadow">
+      <div class="card m-4 w-25 p-3 align-items-center shadow">
         <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" class="card-img-top mt-3" alt="Publishing frequency">
         <div class="card-body text-center">
           <h5>Increase publishing frequency with licensed content.</h5>
@@ -290,7 +321,7 @@
       </div>
     </article>
     </section>
-    <article id="growing-ecommerce" class="m-5 py-5 d-flex align-items-center">
+    <article id="growing-ecommerce" class="ecommerce m-5 py-5 d-flex align-items-center">
       <aside class="m-4 w-25">
         <div id="partners" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -393,9 +424,9 @@
         <a href="#" class="btn btn-primary rounded-lg mb-4 py-2 px-4">Who Uses Matcha?</a>
       </section>
     </article>
-    <footer class="mx-3 my-5">
+    <footer class="mx-5 px-5 my-5">
       <div class="row">
-        <div class="col-4 d-inline-flex flex-column">
+        <div class="subscribe col-lg-4 d-inline-flex flex-column">
           <h6 class="text-primary font-weight-light text-uppercase">Subscribe</h6>
           <p>Get the latest tips and trends for ecommerce marketing with the weekly Morning Matcha.</p>
           <div class="input-group mb-3 w-75">
@@ -405,8 +436,7 @@
             </div>
           </div>
         </div>
-        <div class="col-2"></div>
-        <div class="col d-flex justify-content-between">
+        <div class="col menu d-flex justify-content-between">
           <ul class="link-menu">
             <h6 class="text-primary font-weight-light text-uppercase">Products</h6>
             <li><a>Blog Creator</a></li>
@@ -429,22 +459,21 @@
           </ul>
         </div>
       </div>
-      <div class="row mb-5">
-        <div class="col d-flex justify-content-start align-items-center">
-          <a class="navbar-brand" href="https://getmatcha.com/">
+      <div class="row cc m-5">
+        <div class="col-md d-flex justify-content-start align-items-center">
+          <a class="align-items-center" href="https://getmatcha.com/">
             <img
-              class="h-100"
+              class="h-50"
               src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
               alt="Logo"
             />
-            <img class="capterra mx-5 w-25" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra-badge.png" alt="capterra badge">
           </a>
+          <img class="capterra mx-md-5 h-50" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra-badge.png" alt="capterra badge">
         </div>
-        <div class="col d-flex justify-content-end align-items-center">
-          <p class="small">© 2020 Matcha. All Rights Reserved</p>
+        <div class="col-md d-flex justify-content-end align-items-center">
+          <p class="small cpr">© 2020 Matcha. All Rights Reserved</p>
         </div>
       </div>
-
     </footer>
     <!-- Todo el código de nuestro HTML viene aquí -->
     <script
