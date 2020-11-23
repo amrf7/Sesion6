@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-color: #fffcf9;
+  background-color: #e1ffa8 !important;
 }
 
 h1, h2 {
@@ -304,50 +304,6 @@ nav .navbar-nav li:hover::after {
   .menu {
     flex-direction: column;
   }
-
-  /* .partners-logos img {
-      height: 100%;
-      margin: .5rem !important;
-  }
-
-  .partners-logos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-  }
-
-  .carousel-item .card {
-      height: 400px !important;
-      width: 100%;
-  }
-
-  aside {
-      width: 100% !important;
-  }
-
-  footer {
-      .row {
-          .col {
-              flex-direction: column;
-              justify-content: center;
-              margin: 1rem 0;
-              ul {
-                  padding: 0%;
-                  text-align: center;
-              }
-          }
-      }
-  }
-
-  .cc {
-      flex-direction: column;
-      align-items: center !important;
-      img {
-          padding: 0% !important;
-          margin: 0% !important;
-      }
-  } */
 }
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
