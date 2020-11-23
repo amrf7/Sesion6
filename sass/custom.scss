@@ -1,5 +1,6 @@
 // Custom.scss
-$theme-colors: ("primary": #025157,"success": #6abf4b, "light": #ffffff);
+$theme-colors: ("primary": #025157,"success": #6abf4b, "light": #ffffff,
+    "yellow": #f9da73, "green": #80d742, "pink": #ef7179);
 
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -101,6 +102,59 @@ nav .navbar-nav li:hover::after {
 }
 .tools p {
     font-size: .9rem;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    right: 10%;
+    top: 30%;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    right: 5%;
+    top: 30%;
+    padding: 0;
+}
+
+.icon {
+    height: 1.5rem;
+}
+
+.icon-text {
+    font-size: .9rem;
+    line-height: 1.15;
+    letter-spacing: 0px;
+}
+
+.carousel-indicators {
+    bottom: -50px !important;
+}
+
+.carousel-indicators li {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 100%;
+    border: 3px solid #025157 !important;
+    background-color: transparent;
+}
+
+.img-container {
+    overflow: hidden;
+    width: 100%;
+    height: 17rem;
+}
+
+.carousel-item .card {
+    height: 600px !important;
+}
+
+.eccomerce-text p {
+    font-size: 1.15rem !important;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
