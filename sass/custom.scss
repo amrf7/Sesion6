@@ -157,4 +157,14 @@ nav .navbar-nav li:hover::after {
     font-size: 1.15rem !important;
 }
 
+.link-menu {
+    list-style-type: none;
+    li {
+        margin: 1em 0;
+        a {
+            font-size: 1.15rem !important;
+        }
+    }
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
